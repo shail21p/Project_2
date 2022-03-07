@@ -2,7 +2,9 @@ body {
 font-size: 200%;
     background-image: url(../images/download.png);
     background-repeat: no-repeat;
-    background-size:100%
+    background-size:100%;
+    display:flex;
+
 
 
 }
@@ -19,4 +21,12 @@ font-size: 200%;
     position:relative;
     left:500px;
     padding:20px;
+    font-color:black;
+}
+*{
+    box-sizing: border-box;
+}
+.slider {
+    width: 400px;
+
 }
