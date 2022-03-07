@@ -1,6 +1,6 @@
 body {
 font-size: 200%;
-    background-image: url(../images/docker_background.jpg);
+    background-image: url(../images/download.png);
     background-repeat: no-repeat;
     background-size:100%
 
@@ -15,6 +15,8 @@ font-size: 200%;
 }
 .nav-link{
     font-size : 20px;
-    font-family:"Monotype Corsiva"
-    float:right;
+    font-family:"Monotype Corsiva";
+    position:relative;
+    left:500px;
+    padding:20px;
 }
