@@ -16,16 +16,5 @@ font-size: 200%;
 .nav-link{
     font-size : 20px;
     font-family:"Monotype Corsiva"
+    float:right;
 }
-#Outline{
-    border : 1px solid #ddd;
-    position:fixed;
-    top:0;
-    right:30;
-}
-#CI/CD{
-        border : 1px solid #ddd;
-    position:fixed;
-    top:0;
-    right:30;
-    }
