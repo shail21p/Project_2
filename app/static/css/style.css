@@ -22,7 +22,7 @@ font-size: 200%;
     position:relative;
     left:500px;
     padding:20px;
-    font-color:black;
+    color:black;
 }
 @keyframes tonext {
   75% {
@@ -109,7 +109,7 @@ ol, li {
   padding-top: 75%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
-  max-height:30rem;
+  height:200px;
 }
 
 .carousel__viewport {
