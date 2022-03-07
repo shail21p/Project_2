@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}"></a>
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}"> </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Git" href="{{ url_for('simple_pages.show', page="about")}}">About</a>
@@ -53,26 +53,106 @@
             </nav>
         </header>
     </div>
-    <h1>Shail Patel</h1>
-
-    <div class="carousel">
-        <button class="carousel_button"><img src="../static/images/left.png"></button>
-        <div class="carousel__track-container">
-            <ul class="carousel__track">
-                <li class="carousel__slide"><img src="../static/images/docker.png"></li>
-                <li class="carousel__slide"><img src="../static/images/Github.png"></li>
-                <li class="carousel__slide"><img src="../static/images/pycharm.png"></li>
+<section>
+    <div class="container">
+        <div class="carousel">
+            <input type="radio" name="slides" checked="checked" id="slide-1">
+            <input type="radio" name="slides" id="slide-2">
+            <input type="radio" name="slides" id="slide-3">
+            <input type="radio" name="slides" id="slide-4">
+            <input type="radio" name="slides" id="slide-5">
+            <input type="radio" name="slides" id="slide-6">
+            <ul class="carousel__slides">
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://picsum.photos/id/1041/800/450" alt="">
+                        </div>
+                        <figcaption>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="credit"></span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://picsum.photos/id/1043/800/450" alt="">
+                        </div>
+                        <figcaption>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="credit"></span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://picsum.photos/id/1044/800/450" alt="">
+                        </div>
+                        <figcaption>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="credit"></span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://picsum.photos/id/1045/800/450" alt="">
+                        </div>
+                        <figcaption>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="credit"></span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://picsum.photos/id/1049/800/450" alt="">
+                        </div>
+                        <figcaption>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="credit"></span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://picsum.photos/id/1052/800/450" alt="">
+                        </div>
+                        <figcaption>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <span class="credit"></span>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <ul class="carousel__thumbnails">
+                <li>
+                    <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-3"><img src="https://picsum.photos/id/1044/150/150" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" alt=""></label>
+                </li>
             </ul>
         </div>
-        <button class="carousel_button"><img src="../static/images/right.png"></button>
-
-        <div class="carsouel__nav">
-            <button class="carasouel__indicator"></button>
-            <button class="carasouel__indicator"></button>
-            <button class="carasouel__indicator"></button>
-        </div>
     </div>
-
+</section>
 
     <div class="container">
         {% block content %}
