@@ -6,9 +6,9 @@ def test_request_main_menu_links(client):
     assert response.status_code == 200
     assert b'<a class="nav-link" href="/about">About</a>' in response.data
     assert b'<a class="nav-link" href="/page1">Home</a>' in response.data
-    assert b'<a class="nav-link" href="/page2">Page 2</a>' in response.data
-    assert b'<a class="nav-link" href="/page3">Page 3</a>' in response.data
-    assert b'<a class="nav-link" href="/page4">Page 4</a>' in response.data
+    assert b'<a class="nav-link" href="/page2">Git</a>' in response.data
+    assert b'<a class="nav-link" href="/page3">Docker</a>' in response.data
+    assert b'<a class="nav-link" href="/page4">CI/CD</a>' in response.data
 
 def test_request_index(client):
     """This makes the index page"""
@@ -26,7 +26,7 @@ def test_request_page1(client):
     """This makes the index page"""
     response = client.get("/page1")
     assert response.status_code == 200
-    assert b"Home" in response.data
+    assert b"page 1" in response.data
 
 def test_request_page2(client):
     """This makes the index page"""
