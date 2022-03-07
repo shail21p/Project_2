@@ -2,6 +2,7 @@ body {
 font-size: 200%;
     background-image: url(../images/docker_background.jpg);
     background-repeat: no-repeat;
+    background-size:100%
 
 
 }
@@ -11,6 +12,10 @@ font-size: 200%;
     top:0;
     left:0;
 
+}
+.nav-link{
+    font-size : 20px;
+    font-family:"Monotype Corsiva"
 }
 #Outline{
     border : 1px solid #ddd;
@@ -22,5 +27,5 @@ font-size: 200%;
         border : 1px solid #ddd;
     position:fixed;
     top:0;
-    right:20;
+    right:30;
     }
