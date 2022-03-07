@@ -1,13 +1,10 @@
 body {
-font-size: 100%;
+font-size: 200%;
     background-image: url(../images/download.png);
     background-repeat: no-repeat;
     background-size:100%;
     display:flex;
-    max-width: 37.5rem;
-    margin: 0 auto;
-    padding: 0 1.25rem;
-    font-family: 'Lato', sans-serif;
+
 
 
 
@@ -104,6 +101,10 @@ ol, li {
 }
 
 .carousel {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  font-family: 'Lato', sans-serif;
   position: relative;
   padding-top: 75%;
   filter: drop-shadow(0 0 10px #0003);
