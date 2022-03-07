@@ -12,3 +12,9 @@ font-size: 200%;
     left:0;
 
 }
+.nav-link{
+    border 1px solid #dddddd;
+    position:fixed;
+    top:0;
+    right:80;
+}
