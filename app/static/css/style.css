@@ -1,5 +1,9 @@
 body {
 font-size: 200%;
+    background-image: url(../images/docker_background.jpg);
+    background-repeat: no-repeat;
+
+
 }
 #logo{
     border : 1px solid #ddd;
