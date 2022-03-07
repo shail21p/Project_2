@@ -12,9 +12,15 @@ font-size: 200%;
     left:0;
 
 }
-.nav-link{
-    border 1px solid #dddddd;
+#Outline{
+    border : 1px solid #ddd;
     position:fixed;
     top:0;
-    right:80;
+    right:0;
 }
+#CI/CD{
+        border : 1px solid #ddd;
+    position:fixed;
+    top:0;
+    right:20;
+    }
