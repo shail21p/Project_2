@@ -109,7 +109,7 @@ ol, li {
   padding-top: 75%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
-  max-length:37.5rem;
+  max-height:37.5rem;
 }
 
 .carousel__viewport {
