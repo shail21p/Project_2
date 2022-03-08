@@ -1,11 +1,9 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
-
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml)
 
 
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
 
 * [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
 
