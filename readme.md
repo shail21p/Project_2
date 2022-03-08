@@ -53,4 +53,6 @@ app/dyno.
 * https://suryasankar.medium.com/a-basic-app-factory-pattern-for-production-ready-websites-using-flask-and-sqlalchemy-dbb891cdf69f
 
 
-potato 2
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
+
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml)
