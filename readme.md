@@ -5,7 +5,7 @@
 
 [![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
 
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Developmental Deployment] (https://dashboard.heroku.com/apps/sp233flask2-dev)
 
 ## Setting up CI/CD
 
