@@ -69,8 +69,15 @@
             <li>setup the prod.yml : change the authorization for your own heroku id/pass</li>
             <li>setup the dev.yml : change the authorization key and heroku id/pass</li>
         <li><h4>Review Code</h4></li>
+        <p> using the merge pull in github you can review the code before merging pull requests in Github Pull Requests tab</p>
         <li><h4>Deploy master to a production server</h4></li>
+        <p>make a test branch or feature branch, work on the branch and merge pull the branch. after the tests are done and everything works perfectly we can merge it to the main branch for deployment purposes</p>
+
         <li><h4>Deploy image of your project to Dockerhub when master is updated</h4></li>
+        <p> use the secrets in your github settings-->actions-->secrets tab</p>
+        <p>create a new secret for DockerHub username and password</p>
+        <p>once that part is done docker push (docker repository name)</p>
+        <p> this should allow you to integrate without your dockerhub repo</p>
     </ul>
 
 </div>
