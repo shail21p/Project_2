@@ -1,7 +1,7 @@
 # Project Setup
-[![Development Workflow](https://github.com/shail21p/Project_2/actions/workflows/dev.yml/badge.svg?branch=main)](https://github.com/shail21p/Project_2/actions/workflows/dev.yml)
+https://sp233flask2-dev.herokuapp.com/
 
-[![Production Workflow](https://github.com/shail21p/Project_2/actions/workflows/prod.yml/badge.svg?branch=main)](https://github.com/shail21p/Project_2/actions/workflows/prod.yml)
+https://sp233flask2-prod.herokuapp.com/
 
 * [Developmental Deployment] (https://dashboard.heroku.com/apps/sp233flask2-dev)
 
