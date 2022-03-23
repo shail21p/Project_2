@@ -1,9 +1,7 @@
 # Project Setup
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
 
 [![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml)
-
-
-[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
 
 * [Developmental Deployment] (https://dashboard.heroku.com/apps/sp233flask2-dev)
 
@@ -51,6 +49,3 @@ app/dyno.
 * https://suryasankar.medium.com/a-basic-app-factory-pattern-for-production-ready-websites-using-flask-and-sqlalchemy-dbb891cdf69f
 
 
-[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
-
-[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml)
