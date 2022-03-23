@@ -1,7 +1,7 @@
 # Project Setup
-[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
+[![Development Workflow](https://github.com/shail21p/Project_2/actions/workflows/dev.yml/badge.svg?branch=main)](https://github.com/shail21p/Project_2/actions/workflows/dev.yml)
 
-[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml)
+[![Production Workflow](https://github.com/shail21p/Project_2/actions/workflows/prod.yml/badge.svg?branch=main)](https://github.com/shail21p/Project_2/actions/workflows/prod.yml)
 
 * [Developmental Deployment] (https://dashboard.heroku.com/apps/sp233flask2-dev)
 
