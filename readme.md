@@ -1,13 +1,9 @@
 # Project Setup
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_dev.yml)
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+[![Heroku Awake](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml/badge.svg)](https://github.com/shail21p/Project_2/actions/workflows/heroku_awake_prod.yml)
 
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
-
-
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
-
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Developmental Deployment] (https://dashboard.heroku.com/apps/sp233flask2-dev)
 
 ## Setting up CI/CD
 
@@ -53,4 +49,3 @@ app/dyno.
 * https://suryasankar.medium.com/a-basic-app-factory-pattern-for-production-ready-websites-using-flask-and-sqlalchemy-dbb891cdf69f
 
 
-potato 1
